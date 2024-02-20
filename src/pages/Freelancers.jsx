@@ -110,17 +110,17 @@ const Freelancers = () => {
             )}
           </section>
 
-          <div className="flex items-center justify-between bg-white text-gray-500 py-3 px-2 rounded-b-md">
-            <div className="flex items-center gap-2">
+          <div className="flex items-center justify-between bg-white text-gray-500 py-3 px-2 rounded-b-md gap-2">
+            <div className="flex items-center gap-1 sm:gap-2">
               <i
                 onClick={() => setPage(1)}
-                className="bi bi-chevron-double-left cursor-pointer text-lg"
+                className="bi bi-chevron-double-left cursor-pointer text-lg hover:text-blue-500"
               />
               <i
                 onClick={() => setPage(Math.max(page - 1, 1))}
-                className="bi bi-chevron-left cursor-pointer text-lg"
+                className="bi bi-chevron-left cursor-pointer text-lg hover:text-blue-500"
               />
-              <div className="bg-color w-8 py-2 text-center rounded-md">
+              <div className="bg-color w-6 sm:w-8 py-1 sm:py-2 text-center rounded-md">
                 {page}
               </div>
               <i
@@ -129,17 +129,19 @@ const Freelancers = () => {
                     Math.min(page + 1, Math.ceil(data?.total / listingsPerPage))
                   )
                 }
-                className="bi bi-chevron-right cursor-pointer text-lg"
+                className="bi bi-chevron-right cursor-pointer text-lg hover:text-blue-500"
               />
               <i
                 onClick={() =>
                   setPage(Math.ceil(data?.total / listingsPerPage))
                 }
-                className="bi bi-chevron-double-right cursor-pointer text-lg"
+                className="bi bi-chevron-double-right cursor-pointer text-lg hover:text-blue-500"
               />
             </div>
-            <div className="flex items-center gap-5">
-              <div>{`Showing ${(page - 1) * listingsPerPage + 1} - ${
+            <div className="flex items-center gap-3 sm:gap-5">
+              <div className="text:sm sm:text-base">{`Showing ${
+                (page - 1) * listingsPerPage + 1
+              } - ${
                 page * listingsPerPage > data?.total
                   ? data?.total
                   : page * listingsPerPage

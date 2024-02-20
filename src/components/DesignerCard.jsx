@@ -55,13 +55,13 @@ const DesignerCard = ({ data, setIsSelected }) => {
         {specialty?.name === "" ? (
           <i className="bi bi-dash text-lg -translate-x-1" />
         ) : (
-          <div className={`h-2 w-2 rounded-full ${specialty?.color}`} />
+          <div className={`h-2 w-2 rounded-full ${specialty?.color}-bg`} />
         )}
         <div>{specialty?.name}</div>
       </div>
       <div>$ {hourlyRate}</div>
       <div
-        className={`rounded-md text-white text-center w-18 ${resource?.color}`}
+        className={`rounded-md text-white text-center w-18 ${resource?.color}-bg`}
       >
         {resource?.name}
       </div>
@@ -107,7 +107,7 @@ const DesignerCard = ({ data, setIsSelected }) => {
         <i className="bi bi-dash text-lg" />
       ) : (
         <div
-          className={`${status?.color.background} ${status?.color.text} text-center font-medium rounded-lg`}
+          className={`${status?.color}-bg-light ${status?.color}-text w-fit py-1 px-2 text-center font-medium rounded-xl`}
         >
           {status?.name}
         </div>

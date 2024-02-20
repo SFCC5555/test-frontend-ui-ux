@@ -13,6 +13,32 @@
 :root {
   --main-color: #6584c2;
   --bg-color: #f2f3f8;
+  --main-blue: #4b72b7;
+  --main-red: #dd5859;
+  --main-green: #64b249;
+  --main-yellow: #ffe500;
+  --main-orange: #f4981a;
+  --main-cyan: #4eb1db;
+  --main-pink: #ec659c;
+  --secondary-blue: #e4e8f6;
+  --secondary-red: #fce3e4;
+  --secondary-green: #e8edb7;
+  --secondary-yellow: #fff9e1;
+  --secondary-orange: #ffeed8;
+  --secondary-cyan: #ebf7fe;
+  --secondary-pink: #f6c5d8;
+}
+
+@each $color in "blue", "red", "green", "yellow", "orange", "cyan", "pink" {
+  .#{$color}-text {
+    color: var(--main-#{$color});
+  }
+  .#{$color}-bg {
+    background-color: var(--main-#{$color});
+  }
+  .#{$color}-bg-light {
+    background-color: var(--secondary-#{$color});
+  }
 }
 
 body {
@@ -58,11 +84,11 @@ span {
 }
 
 .main-container {
-  max-width: 1185px;
+  max-width: 1173px;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 36px 156px 104px 48px 64px 70px 70px 104px 84px 48px 40px 60px 120px 50px 75px;
-  gap: 4px;
+  grid-template-columns: 36px 156px 104px 52px 64px 72px 70px 100px 84px 48px 40px 60px 124px 50px 85px;
+  gap: 2px;
 }

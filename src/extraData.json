@@ -17,45 +17,45 @@
   ],
 
   "specialties": [
-    { "name": "Product", "color": "bg-yellow-500" },
-    { "name": "UI/UX", "color": "bg-green-500" },
-    { "name": "Graphic", "color": "bg-red-500" },
-    { "name": "Mobile", "color": "bg-blue-500" },
-    { "name": "Web designer", "color": "bg-orange-500" },
-    { "name": "", "color": "text-gray-500" }
+    { "name": "Product", "color": "yellow" },
+    { "name": "UI/UX", "color": "green" },
+    { "name": "Graphic", "color": "red" },
+    { "name": "Mobile", "color": "blue" },
+    { "name": "Web designer", "color": "orange" },
+    { "name": "", "color": "gray0" }
   ],
   "resources": [
-    { "name": "Behance", "color": "bg-blue-500" },
-    { "name": "Pinterest", "color": "bg-red-500" },
-    { "name": "UpWork", "color": "bg-green-500" },
-    { "name": "Dribbble", "color": "bg-pink-500" }
+    { "name": "Behance", "color": "blue" },
+    { "name": "Pinterest", "color": "red" },
+    { "name": "UpWork", "color": "green" },
+    { "name": "Dribbble", "color": "pink" }
   ],
 
   "workArrangement": ["Full-Time", "Part-Time", "Contract", "Freelance"],
   "status": [
     {
       "name": "Top Rated",
-      "color": { "text": "text-blue-500", "background": "bg-blue-200" }
+      "color": "blue"
     },
     {
       "name": "Rising Talend",
-      "color": { "text": "text-green-500", "background": "bg-green-200" }
+      "color": "green"
     },
     {
       "name": "Interview",
-      "color": { "text": "text-yellow-500", "background": "bg-yellow-200" }
+      "color": "orange"
     },
     {
       "name": "Contract Offered",
-      "color": { "text": "text-cyan-500", "background": "bg-cyan-200" }
+      "color": "cyan"
     },
     {
       "name": "Blocked",
-      "color": { "text": "text-red-500", "background": "bg-red-200" }
+      "color": "red"
     },
     {
       "name": "",
-      "color": { "text": "text-gray-500", "background": "bg-gray-200" }
+      "color": "gray"
     }
   ]
 }
