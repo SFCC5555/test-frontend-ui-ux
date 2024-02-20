@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #6584c2;
+  --bg-color: #f2f3f8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg-color);
+}
+
+span {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.main-logo {
+  width: 30px;
+  height: 30px;
+  background-image: url("./assets/freelancers-logo.png");
+}
+
+.main-color {
+  color: var(--main-color);
+}
+
+.main-color-hover:hover {
+  color: var(--main-color);
+}
+
+.bg-main-color {
+  background-color: var(--main-color);
+}
+
+.bg-color {
+  background-color: var(--bg-color);
+}
+
+.active {
+  color: var(--main-color);
+  border-top: 4px solid var(--main-color);
+}
+
+.h-min {
+  min-height: 600px;
+}
+
+.main-container {
+  max-width: 1185px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 36px 156px 104px 48px 64px 70px 70px 104px 84px 48px 40px 60px 120px 50px 75px;
+  gap: 4px;
+}

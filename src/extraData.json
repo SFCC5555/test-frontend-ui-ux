@@ -1,0 +1,43 @@
+{
+  "fields": [
+    "Designers",
+    "Specialties",
+    "Hourly Rate",
+    "Resource",
+    "Full-time?",
+    "Job Success",
+    "Location",
+    "Last Activity",
+    "Verified",
+    "Hours billed",
+    "Earned amount",
+    "Status",
+    "Hours worked",
+    "Actions"
+  ],
+
+  "specialties": [
+    { "name": "Product", "color": "yellow" },
+    { "name": "UI/UX", "color": "green" },
+    { "name": "Graphic", "color": "red" },
+    { "name": "Mobile", "color": "blue" },
+    { "name": "Web designer", "color": "orange" },
+    { "name": "", "color": "gray" }
+  ],
+  "resources": [
+    { "name": "Behance", "color": "blue" },
+    { "name": "Pinterest", "color": "red" },
+    { "name": "UpWork", "color": "green" },
+    { "name": "Dribbble", "color": "pink" }
+  ],
+
+  "workArrangement": ["Full-Time", "Part-Time", "Contract", "Freelance"],
+  "status": [
+    { "name": "Top Rated", "color": "blue" },
+    { "name": "Rising Talend", "color": "green" },
+    { "name": "Interview", "color": "yellow" },
+    { "name": "Contract Offered", "color": "cyan" },
+    { "name": "Blocked", "color": "red" },
+    { "name": "", "color": "gray" }
+  ]
+}
