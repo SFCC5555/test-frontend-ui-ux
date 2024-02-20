@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const FiltersOptionModal = ({ setFilterOptionStatus, setFilters }) => {
   return (
     <div className="fixed top-0 h-screen w-full bg-black/50 z-10">
@@ -23,6 +25,11 @@ const FiltersOptionModal = ({ setFilterOptionStatus, setFilters }) => {
       </section>
     </div>
   );
+};
+
+FiltersOptionModal.propTypes = {
+  setFilterOptionStatus: PropTypes.any,
+  setFilters: PropTypes.any,
 };
 
 export { FiltersOptionModal };
