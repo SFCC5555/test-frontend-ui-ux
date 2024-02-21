@@ -79,12 +79,13 @@ span {
   border-top: 4px solid var(--main-color);
 }
 
-.h-min {
-  min-height: 600px;
-}
-
 .main-container {
   max-width: 1173px;
+  min-height: 620px;
+}
+
+.filters-section {
+  height: calc(100% - 80px);
 }
 
 .grid-container {

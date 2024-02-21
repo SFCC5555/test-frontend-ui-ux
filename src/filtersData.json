@@ -1,0 +1,67 @@
+[
+  {
+    "field": "Houry Rate",
+    "key": "hourlyRate",
+    "type": "range",
+    "min": 0,
+    "max": "Infinity"
+  },
+  {
+    "field": "Status",
+    "key": "status",
+    "type": "value",
+    "value": null
+  },
+  {
+    "field": "Full-time?",
+    "key": "workArrangement",
+    "type": "value",
+    "value": null
+  },
+  {
+    "field": "Job Success",
+    "key": "jobSuccess",
+    "type": "range",
+    "min": 0,
+    "max": 5
+  },
+  {
+    "field": "Location",
+    "key": "country",
+    "type": "value",
+    "value": null
+  },
+  {
+    "field": "Verified",
+    "key": "Resourse",
+    "type": "value",
+    "value": null
+  },
+  {
+    "field": "Resourse",
+    "key": "resourse",
+    "type": "value",
+    "value": null
+  },
+  {
+    "field": "Last Activity",
+    "key": "date",
+    "type": "range",
+    "min": 2010,
+    "max": 2024
+  },
+  {
+    "field": "Earned Amount",
+    "key": "earnedAmount",
+    "type": "range",
+    "min": 0,
+    "max": "Infinity"
+  },
+  {
+    "field": "Hours Billed",
+    "key": "hoursBilled",
+    "type": "range",
+    "min": 0,
+    "max": "Infinity"
+  }
+]

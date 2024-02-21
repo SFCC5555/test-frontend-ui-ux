@@ -64,7 +64,7 @@ const fetchData = async (setData, setDesigners, setError) => {
             hoursBilled,
             status,
             hoursWorked,
-            hired
+            hired,
           };
         })
       );

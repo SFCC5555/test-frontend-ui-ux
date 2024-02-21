@@ -3,13 +3,14 @@ import fetchData from "../api/fetchData";
 import extraData from "../extraData.json";
 import { DesignerCard } from "../components/DesignerCard";
 import { FiltersOptionModal } from "../components/FiltersOptionModal";
+import filtersData from "../filtersData.json";
 
 const Freelancers = () => {
   const [isSelected, setIsSelected] = useState(0);
   const [listingsPerPage, setListingsPerPage] = useState(10);
   const [page, setPage] = useState(1);
   const [filtersOptionStatus, setFilterOptionStatus] = useState(false);
-  const [filters, setFilters] = useState({});
+  const [filters, setFilters] = useState(filtersData);
 
   const [data, setData] = useState(null);
   const [error, setError] = useState(false);

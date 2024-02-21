@@ -8,6 +8,7 @@ const DesignerCard = ({ data, setIsSelected }) => {
   const {
     first_name,
     last_name,
+    email,
     avatar,
     specialty,
     hourlyRate,
@@ -43,7 +44,10 @@ const DesignerCard = ({ data, setIsSelected }) => {
         } text-lg text-center cursor-pointer`}
       />
 
-      <div className="flex items-center gap-3 text-blue-400">
+      <div
+        title={email}
+        className="flex items-center gap-3 text-blue-400 cursor-default"
+      >
         <img
           alt={`${first_name} ${last_name} avatar`}
           src={avatar}

@@ -14,4 +14,4 @@ const generateRandomDate = () => {
   return formattedDate;
 };
 
-export default generateRandomDate
+export default generateRandomDate;
