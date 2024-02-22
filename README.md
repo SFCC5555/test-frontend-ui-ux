@@ -27,11 +27,11 @@ The columns to be displayed are:
 
 The interface of this listing should be based on the following mockup:
 
-![Freelance Platform Design](https://dribbble.com/shots/12093624-Freelance-platform-responsive-data-table-for-HR-s/attachments/3725031?mode=media)
+[Freelance Platform Design](https://dribbble.com/shots/12093624-Freelance-platform-responsive-data-table-for-HR-s/attachments/3725031?mode=media)
 
 Data source:
 
-![API](https://reqres.in/api/users)
+[API](https://reqres.in/api/users)
 
 PD:
 
@@ -42,18 +42,18 @@ You can carry out the practice using basic tools
 Alternatively, if you prefer, you can use a JavaScript framework.
 - Preferred:
     - Vuejs + Vuetify
-    ![Vuejs](https://vuejs.org/)
-    ![Vuetify](https://vuetifyjs.com/en/)
+    [Vuejs](https://vuejs.org/)
+    [Vuetify](https://vuetifyjs.com/en/)
 
     - React + MUI
-    ![React](https://reactjs.org/)
-    ![MUI](https://mui.com/)
+    [React](https://reactjs.org/)
+    [MUI](https://mui.com/)
 
 
 ### Screenshot
 
 ![Mobile](./src/assets/screenshotFreelancersPlatformMobile.jpeg)
-![Desktop](.//src/assets/screenshotFreelancersPlatformDesktop.png)
+![Desktop](./src/assets/screenshotFreelancersPlatformDesktop.png)
 
 ### Links
 
